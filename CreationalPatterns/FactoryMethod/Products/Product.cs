@@ -1,4 +1,4 @@
-﻿namespace Singleton.Products
+﻿namespace FactoryMethod.Products
 {
     public interface Product;
 }

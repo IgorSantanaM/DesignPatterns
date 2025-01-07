@@ -16,10 +16,10 @@ context.SetStrategy(new PayPalStrategy(
     email: "igor@santana.com",
     password: "mypasswordofcourse"));
 
-context.Checkout(1m);
+context.Checkout(10.2m);
 
 context.SetStrategy(new BankTransferStrategy(
     bankName: "igorsbank",
     accountNumber: "cool123"));
 
-context.Checkout(1m);
+context.Checkout(105.0m);

@@ -10,10 +10,10 @@ namespace StrategyPattern.Strategies
     {
         private string _bankName = bankName;
         private string _accountNumber = accountNumber;
-        public decimal Pay(decimal amount)
+
+        public void Pay(decimal amount)
         {
-            Console.WriteLine("paying with bank account");
-            return amount;
+            Console.WriteLine($"paid ${amount} with bank account");
         }
     }
 }

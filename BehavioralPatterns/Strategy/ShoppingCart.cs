@@ -16,7 +16,7 @@ namespace StrategyPattern
             _strategy = strategy;
         }
 
-        public void ExecuteStrategy(decimal amount)
+        public void Checkout(decimal amount)
         {
             _strategy?.Pay(amount);
         }

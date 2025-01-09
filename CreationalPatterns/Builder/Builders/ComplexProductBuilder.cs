@@ -18,12 +18,12 @@ namespace Builder.Builders
 
         public void BuildDescription()
         {
-            _description = "Simple Product description";
+            _description = "Complex Product description";
         }
 
         public void BuildName()
         {
-            _name = "simple Product";
+            _name = "Complex Product";
         }
     }
 }

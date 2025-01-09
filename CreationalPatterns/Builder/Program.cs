@@ -1,3 +1,12 @@
 ﻿using Builder;
+using Builder.Builders;
 
-Product p = new Product("legal", "legal2");
+
+IBuilder builder = new ComplexProductBuilder();
+
+ProdcutDirector director = new(builder);
+
+director.ConstructProduct();
+
+Product product = builder.Build();
+

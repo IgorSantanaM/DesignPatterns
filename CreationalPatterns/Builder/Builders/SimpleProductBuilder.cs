@@ -1,15 +1,15 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder
+namespace Builder.Builders
 {
     public class SimpleProductBuilder : IBuilder
     {
         private string _name = string.Empty;
-         private string _description = string.Empty;
+        private string _description = string.Empty;
 
         public Product Build()
         {

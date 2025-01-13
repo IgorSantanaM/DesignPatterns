@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Proxy
+﻿namespace Proxy
 {
     public class RealSubject : Subject
     {
 
         public RealSubject()
         {
-            Console.WriteLine("Initiating real subject");
+            Console.WriteLine("Initiating real") ;
         }
         public void Operation()
         {

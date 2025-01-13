@@ -1,10 +1,10 @@
 ﻿namespace Proxy
 {
-    public class Proxy : Subject
+    public class Proxyd : Subject
     {
         private RealSubject? _realSubject = null;
-        public Proxy()
-        {
+        public Proxyd()
+        {   
             Console.WriteLine("Initiating Proxy");
         }
         public void Operation()

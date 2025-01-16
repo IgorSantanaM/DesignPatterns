@@ -35,7 +35,7 @@ namespace Observer
             gameObservers.Add(observer);
         }
 
-        public void Deattach(IGameObserver observer)
+        public void Dettach(IGameObserver observer)
         {
             gameObservers.Remove(observer);
         }

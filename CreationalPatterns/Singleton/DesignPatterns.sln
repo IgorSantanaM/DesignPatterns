@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "..\..\Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "..\..\BehavioralPatterns\Observer\Observer.csproj", "{A88AD5E8-6FA1-4DB1-B773-A8ECAE97DEB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "..\..\BehavioralPatterns\TemplateMethod\TemplateMethod.csproj", "{613F16C4-3C7A-40CF-881C-2AC37E03CFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "..\..\BehavioralPatterns\Mediator\Mediator.csproj", "{7E26895C-7C06-49ED-8999-75F268A066C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{A88AD5E8-6FA1-4DB1-B773-A8ECAE97DEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A88AD5E8-6FA1-4DB1-B773-A8ECAE97DEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A88AD5E8-6FA1-4DB1-B773-A8ECAE97DEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613F16C4-3C7A-40CF-881C-2AC37E03CFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613F16C4-3C7A-40CF-881C-2AC37E03CFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613F16C4-3C7A-40CF-881C-2AC37E03CFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613F16C4-3C7A-40CF-881C-2AC37E03CFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E26895C-7C06-49ED-8999-75F268A066C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E26895C-7C06-49ED-8999-75F268A066C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E26895C-7C06-49ED-8999-75F268A066C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E26895C-7C06-49ED-8999-75F268A066C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,5 +116,7 @@ Global
 		{39A4DD2C-A71C-49C6-B772-0151D389AE39} = {12CF6A55-5D25-4BC6-A35F-A49A4D9B17A5}
 		{34441D3D-9AE8-41A1-BCB5-AF3DFD3CA1CF} = {12CF6A55-5D25-4BC6-A35F-A49A4D9B17A5}
 		{A88AD5E8-6FA1-4DB1-B773-A8ECAE97DEB1} = {961886B6-69FC-437D-AEA0-8BB9096B6E01}
+		{613F16C4-3C7A-40CF-881C-2AC37E03CFFD} = {961886B6-69FC-437D-AEA0-8BB9096B6E01}
+		{7E26895C-7C06-49ED-8999-75F268A066C3} = {961886B6-69FC-437D-AEA0-8BB9096B6E01}
 	EndGlobalSection
 EndGlobal

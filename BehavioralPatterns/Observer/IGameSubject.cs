@@ -9,7 +9,7 @@ namespace Observer
     public interface IGameSubject
     {
         void Attach(IGameObserver observer);
-        void Deattach(IGameObserver observer);
+        void Dettach(IGameObserver observer);
         void Notify();
     }
 }

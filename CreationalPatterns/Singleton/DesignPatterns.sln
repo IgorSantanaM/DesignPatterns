@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "..\..\Beh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "..\..\BehavioralPatterns\Mediator\Mediator.csproj", "{7E26895C-7C06-49ED-8999-75F268A066C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "..\..\StructuralPatterns\Composite\Composite.csproj", "{F76D3DF3-CAC8-44EB-A7CA-872C8BEF9B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "..\..\BehavioralPatterns\Memento\MementoPattern.csproj", "{1A572052-3243-4516-ACAE-890FC1FDB1ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{7E26895C-7C06-49ED-8999-75F268A066C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E26895C-7C06-49ED-8999-75F268A066C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E26895C-7C06-49ED-8999-75F268A066C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76D3DF3-CAC8-44EB-A7CA-872C8BEF9B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76D3DF3-CAC8-44EB-A7CA-872C8BEF9B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76D3DF3-CAC8-44EB-A7CA-872C8BEF9B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76D3DF3-CAC8-44EB-A7CA-872C8BEF9B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A572052-3243-4516-ACAE-890FC1FDB1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A572052-3243-4516-ACAE-890FC1FDB1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A572052-3243-4516-ACAE-890FC1FDB1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A572052-3243-4516-ACAE-890FC1FDB1ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,5 +130,7 @@ Global
 		{A88AD5E8-6FA1-4DB1-B773-A8ECAE97DEB1} = {961886B6-69FC-437D-AEA0-8BB9096B6E01}
 		{613F16C4-3C7A-40CF-881C-2AC37E03CFFD} = {961886B6-69FC-437D-AEA0-8BB9096B6E01}
 		{7E26895C-7C06-49ED-8999-75F268A066C3} = {961886B6-69FC-437D-AEA0-8BB9096B6E01}
+		{F76D3DF3-CAC8-44EB-A7CA-872C8BEF9B95} = {12CF6A55-5D25-4BC6-A35F-A49A4D9B17A5}
+		{1A572052-3243-4516-ACAE-890FC1FDB1ED} = {961886B6-69FC-437D-AEA0-8BB9096B6E01}
 	EndGlobalSection
 EndGlobal

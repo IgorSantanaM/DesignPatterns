@@ -2,7 +2,7 @@
 using Bridge.Abstractions;
 using Bridge.Implementors;
 
-Abstraction abstraction = new RefinedAbstraction1(
-    implementor: new ConcreteImplementor2());
+Abstraction abstraction = new RefinedAbstraction2(
+    implementor: new ConcreteImplementor3());
 
 abstraction.Foo();

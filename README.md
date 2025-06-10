@@ -18,8 +18,8 @@ The patterns are organized according to their three main categories: **Creationa
 
 Patterns that abstract the object-instantiation process. They help make a system independent of how its objects are created, composed, and represented.
 
-| Pattern | Brief Description | Status | Link to Code |
-| :--- | :--- | :---: | :--- |
+| Pattern | Brief Description |
+| :--- | :--- | 
 | **Abstract Factory** | Provides an interface for creating families of related or dependent objects without specifying their concrete classes. 
 | **Builder** | Separates the construction of a complex object from its representation, allowing the same construction process to create various representations. |
 | **Factory Method** | Defines an interface for creating an object, but lets subclasses alter the type of objects that will be created. 
@@ -30,8 +30,8 @@ Patterns that abstract the object-instantiation process. They help make a system
 
 Patterns concerned with how classes and objects are composed to form larger structures, while keeping these structures flexible and efficient.
 
-| Pattern | Brief Description | Status | Link to Code |
-| :--- | :--- | :---: | :--- |
+| Pattern | Brief Description |
+| :--- | :--- |
 | **Adapter** | Converts the interface of a class into another interface clients expect, letting classes work together that couldn't otherwise because of incompatible interfaces.
 | **Bridge** | Decouples an abstraction from its implementation so that the two can vary independently.
 | **Composite** | Composes objects into tree structures to represent part-whole hierarchies. Lets clients treat individual objects and compositions of objects uniformly.
@@ -44,8 +44,8 @@ Patterns concerned with how classes and objects are composed to form larger stru
 
 Patterns that are concerned with algorithms and the assignment of responsibilities between objects, describing patterns of communication between them.
 
-| Pattern | Brief Description | Status | Link to Code |
-| :--- | :--- | :---: | :--- |
+| Pattern | Brief Description |
+| :--- | :--- |
 | **Chain of Responsibility** | Avoids coupling the sender of a request to its receiver by giving more than one object a chance to handle the request.
 | **Command** | Encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 | **Interpreter** | Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language. 

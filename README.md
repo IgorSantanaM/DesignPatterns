@@ -1,4 +1,4 @@
-# Design Patterns in [Your Language]
+# Design Patterns in C#
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
